@@ -19,13 +19,13 @@ NOTE: Not every emoji looks "nice" in PyQt5 so you may have to install a custom 
 </details>
 
 ```python
-from PyQt5 import QtWidgets # import pyqt5
-from QOptionObjects import QEmojiPicker # import the emoji picker
+from PyQt5 import QtWidgets  # import pyqt5
+from QCustomObjects import QEmojiPicker  # import the emoji picker
 
 if __name__ == '__main__':
     # create a new app
     app = QtWidgets.QApplication([])
-    
+
     # initializes the emoji picker
     emoji_picker = QEmojiPicker(
         # this option can say how many emojis are in a row
@@ -49,21 +49,21 @@ A hydrodynamic layout which rearranges the items in it dynamically if its resize
 </details>
 
 ```python
-from PyQt5 import QtWidgets # import pyqt5
-from QOptionObjects import QFlowLayout # import the flow layout
+from PyQt5 import QtWidgets  # import pyqt5
+from QCustomObjects import QFlowLayout  # import the flow layout
 
 if __name__ == '__main__':
     # create a new app
     app = QtWidgets.QApplication([])
     widget = QtWidgets.QWidget()
-    
+
     # initializes the layout
     layout = QFlowLayout()
-    
+
     # add 100 labels to see its resize function
     for i in range(100):
         layout.addWidget(QtWidgets.QLabel(f'Text {i}'))
-    
+
     # set the layout to the widget and show it
     widget.setLayout(layout)
     widget.show()
@@ -82,21 +82,21 @@ A simple toggle switch
 </details>
 
 ```python
-from PyQt5 import QtWidgets # import pyqt5
-from QOptionObjects import QSwitch # import the switch
+from PyQt5 import QtWidgets  # import pyqt5
+from QCustomObjects import QSwitch  # import the switch
 
 if __name__ == '__main__':
     # create a new app
     app = QtWidgets.QApplication([])
     widget = QtWidgets.QWidget()
     layout = QtWidgets.QHBoxLayout()
-    
+
     # initializes the switch
     switch = QSwitch()
-    
+
     # add the switch to the layout
     layout.addWidget(switch)
-    
+
     # set the layout to the widget and show it
     widget.setLayout(layout)
     widget.show()
@@ -114,8 +114,8 @@ A widget where you can create, delete and edit tags
 </details>
 
 ```python
-from PyQt5 import QtWidgets # import pyqt5
-from QOptionObjects import QTagEdit # import the tag edit
+from PyQt5 import QtWidgets  # import pyqt5
+from QCustomObjects import QTagEdit  # import the tag edit
 
 if __name__ == '__main__':
     # create a new app
@@ -130,26 +130,26 @@ if __name__ == '__main__':
     tag_edit.addTag('a tag')
     # manually remove a tag
     tag_edit.removeTag('a tag')
-    
+
     # clear all tags
     tag_edit.clear()
     # clear all tags and add the given tag after this operation
     tag_edit.setTags(['a tag', 'another tag'])
-    
+
     # sets the tag suggestions you can also define when initializing the class
     tag_edit.setTagSuggestions(['1 tag', '2 tag', '3 tag'])
-    
+
     # if True, the user will be unable to define a tag with the same name twice 
     tag_edit.enableCheckForDoubles(True)
     # if True, the tag suggestions will e shown
     tag_edit.enableTagSuggestions(True)
-    
+
     # print all tags
     print(tag_edit.tags())
-    
+
     # show the tag edit
     tag_edit.show()
-    
+
     app.exec()
 ```
 
