@@ -3,6 +3,11 @@ This is a collection of PyQt5 classes, which I'm using or I have used.
 
 Because i use KDE Plasma, the look of the objects on your system may be different than my [demonstrations](/assets)
 
+- [QEmojiPicker](#QEmojiPicker)
+- [QFlowLayout](#QFlowLayout)
+- [QSwitch](#QSwitch)
+- [QTagEdit](#QTagEdit)
+
 ## QEmojiPicker
 
 A resizable widget which let you choose from various emojis.
