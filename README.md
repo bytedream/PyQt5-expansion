@@ -15,7 +15,7 @@ NOTE: Not every emoji looks "nice" in PyQt5 so you may have to install a custom 
 
 <details>
     <summary>Demonstration</summary>
-    <img src="assets/emoji_chooser.gif" alt="">
+    <a href="https://github.com/ByteDream/PyQt5-expansion/blob/main/QCustomObjects.py#L5"><img src="assets/emoji_chooser.gif" alt=""></a>
 </details>
 
 ```python
@@ -45,7 +45,7 @@ A hydrodynamic layout which rearranges the items in it dynamically if its resize
 
 <details>
     <summary>Demonstration</summary>
-    <img src="assets/flow_layout.gif" alt="">
+    <a href="https://github.com/ByteDream/PyQt5-expansion/blob/main/QCustomObjects.py#L2072"><img src="assets/flow_layout.gif" alt=""></a>
 </details>
 
 ```python
@@ -78,7 +78,7 @@ A simple toggle switch
 
 <details>
     <summary>Demonstration</summary>
-    <img src="assets/switch.gif" alt="">
+    <a href="https://github.com/ByteDream/PyQt5-expansion/blob/main/QCustomObjects.py#L2184"><img src="assets/switch.gif" alt=""></a>
 </details>
 
 ```python
@@ -110,7 +110,7 @@ A widget where you can create, delete and edit tags
 
 <details>
     <summary>Demonstration</summary>
-    <img src="assets/tag_edit.gif" alt="">
+    <a href="https://github.com/ByteDream/PyQt5-expansion/blob/main/QCustomObjects.py#L2327"><img src="assets/tag_edit.gif" alt=""></a>
 </details>
 
 ```python
