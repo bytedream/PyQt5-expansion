@@ -1,7 +1,7 @@
 # PyQt5-expansion
 This is a collection of PyQt5 classes, which I'm using or I have used.
 
-Because i use KDE Plasma, the look of the objects on your system may be different than my [demonstrations](/assets)
+Because I use KDE Plasma, the look of the objects on your system may be different from the one in my [demonstrations](/assets)
 
 - [QEmojiPicker](#QEmojiPicker)
 - [QFlowLayout](#QFlowLayout)
@@ -152,3 +152,7 @@ if __name__ == '__main__':
     
     app.exec()
 ```
+
+## License
+
+This project is licensed under the GNU Lesser General Public License v3.0 (LGPL-3.0) - see the [LICENSE](LICENSE) file for more details.
